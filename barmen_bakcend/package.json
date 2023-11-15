@@ -5,9 +5,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "npx nodemon src/index.ts",
-    "build": "tsc",
-    "watch": "tsc -w"
+    "start": "nodemon src/index.js"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
