@@ -14,7 +14,7 @@ export namespace IDrinks {
     brand: string; // ✅
     color: string[]; // ✅
     price: number; // ✅
-    stock: number;
+    stock: number; // ✅
   }
 }
 
