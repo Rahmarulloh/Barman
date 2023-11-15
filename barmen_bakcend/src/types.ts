@@ -6,13 +6,15 @@ export namespace IDrinks {
   }
 
   export interface IDrink {
-    id: number;
-    image: string;
-    size: string;
-    name: string;
-    type: string;
-    brand: string;
-    price: number;
+    id: number; // ✅
+    image: string; // ✅
+    size: string; // ✅
+    name: string; // ✅
+    type: string; // ✅
+    brand: string; // ✅
+    color: string[]; // ✅
+    price: number; // ✅
+    stock: number;
   }
 }
 

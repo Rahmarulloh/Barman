@@ -1,11 +1,12 @@
 // src/index.ts
 import express from "express";
+import { Energetics, drinkCategories } from "./constants/constant.js";
 
 const app = express();
 const port = 4000;
 
-app.get("/", (req, res) => {
-  res.send("Hello, World!");
+app.get("/api/drinks", (req, res) => {
+  res.send(drinkCategories);
 });
 
 app.listen(port, () => {
