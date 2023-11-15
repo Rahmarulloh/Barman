@@ -8,7 +8,7 @@ export namespace IDrinks {
   export interface IDrink {
     id: number; // ✅
     image: string; // ✅
-    size: "Low" | "Medium" | "High"; // ✅
+    size: "Large" | "Medium" | "Small"; // ✅
     name: string; // ✅
     type: string; // ✅
     brand: string; // ✅
