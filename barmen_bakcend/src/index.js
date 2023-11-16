@@ -1,4 +1,5 @@
 // src/index.ts
+import cors from "cors";
 import express from "express";
 import { Energetics, drinkCategories } from "./constants/constant.js";
 import {
@@ -14,6 +15,11 @@ import {
 } from "./users/admin.js";
 
 const app = express();
+
+app.use(cors());
+
+app.use(express.json());
+
 const port = 4000;
 
 //cocktails
